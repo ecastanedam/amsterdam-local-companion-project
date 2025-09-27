@@ -1,19 +1,43 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Amsterdam Local Activities Project
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## 💻 About the Project
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+This project practices **web layout and visual design**, featuring a banner, activity cards, and a personal guide introduction for exploring Amsterdam's hidden spots.
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+The goal was to create a clean, professional, and visually appealing user interface showcasing local activities and a friendly guide perspective.
+
+---
+
+## ✨ Key Features
+
+* **Responsive Banner:** Presents the main destination (**Amsterdam**) with a clear tagline.
+* **Activity Cards:** Displays the top three local activities with concise descriptions.
+* **Local Companion Component:** Features a reusable card to introduce a local guide and their personal perspective.
+
+---
+
+## 🚀 Getting Started
+
+To view and run this project locally, follow the instructions below based on your setup:
+
+### **If using a Bundler (like Vite, which your template suggests):**
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [YOUR-REPO-URL]
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the project:**
+    ```bash
+    npm start
+    ```
+
+### **If using Static HTML/CSS:**
+
+1.  **Clone the repository.**
+2.  Navigate to the project folder and open the main `index.html` file directly in your web browser.
 
 Happy Coding!
