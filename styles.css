@@ -1,0 +1,114 @@
+/*
+Colors based on the provided images:
+Background: #F1FAEE
+Dark Blue: #1D3557
+Aqua Blue: #A8DADC
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #1D3557;
+    background-color: #F1FAEE;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* HERO SECTION */
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1459679749680-18eb1eb37418?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YW1zdGVyZGFtfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    margin-bottom: 50px;
+}
+
+.hero-text-box {
+    background-color: #457B9D;
+    color: #F1FAEE;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* ACTIVITIES SECTION */
+.activities {
+    margin-bottom: 50px;
+}
+
+.activities h3 {
+    margin-bottom: 40px; /* Increased space below the main heading */
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.activity-item {
+    width: 250px; /* Fixed width for each item */
+    margin: 0 10px; /* Add some horizontal spacing */
+}
+
+.activity-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #1D3557;
+    margin-bottom: 15px; /* Space between image and title */
+}
+
+.activity-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0; /* Remove default margin */
+    margin-bottom: 10px; /* Space between title and paragraph */
+    color: #1D3557; /* Dark blue for titles */
+}
+
+.activity-item p {
+    font-size: 16px;
+    color: #555; /* Slightly lighter color for descriptions */
+    line-height: 1.5; /* Improve readability */
+}
+
+/* GUIDE SECTION */
+.guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #A8DADC;
+    padding: 20px 20px;
+    margin: 50px auto;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.guide img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.guide-text {
+    text-align: left;
+}
